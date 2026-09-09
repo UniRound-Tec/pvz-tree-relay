@@ -1,0 +1,22 @@
+{
+  "name": "pvz-tree-relay",
+  "version": "1.0.0",
+  "description": "本仓库已整理好《植物大战僵尸》（Plants vs. Zombies 经典版 / PvZ 1）原版资源文件 `properties/LawnStrings.txt` 中关于**智慧树（Tree of Wisdom）**的全部对话、提示、彩蛋及秘籍文案。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node verify-official-sdks.js",
+    "test:agent": "node test-agent-multiturn.js",
+    "demo": "node demo-stream.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "openai": "^7.13.0"
+  }
+}
