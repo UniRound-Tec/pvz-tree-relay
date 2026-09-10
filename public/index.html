@@ -1118,10 +1118,17 @@ tools = [{
       cursor.className = 'cursor-blinker';
       targetSpan.parentNode.appendChild(cursor);
 
+      // 从本地存储同步树高（适配 Vercel Serverless 无状态冷启动环境）
+      const currentSavedHeight = parseInt(localStorage.getItem('pvz_tree_height') || '0', 10);
+      const nextTargetHeight = currentSavedHeight + 1;
+
       try {
         const response = await fetch(`${API_BASE}/v1/chat/completions`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Tree-Height': nextTargetHeight.toString()
+          },
           body: JSON.stringify({
             model: 'tree-of-wisdom',
             messages: [{ role: 'user', content: text }],
@@ -1130,6 +1137,9 @@ tools = [{
         });
 
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        // 成功通信后保存最新标高
+        localStorage.setItem('pvz_tree_height', nextTargetHeight.toString());
 
         const reader = response.body.getReader();
         const decoder = new TextDecoder('utf-8');
@@ -1209,6 +1219,7 @@ tools = [{
 
     async function resetTree() {
       if (confirm('确认执行软重置以复位认知标高到 0.0 ft？')) {
+        localStorage.removeItem('pvz_tree_height');
         await fetch(`${API_BASE}/tree/reset`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

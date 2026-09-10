@@ -115,6 +115,14 @@ npm run test:agent
 npm run demo
 ```
 
+### ☁️ 云原生 / Vercel 一键部署 (Vercel Serverless Deployment)
+
+本项目已完全配置好 Vercel Serverless 规范（内置 `vercel.json` 路由重写与无状态冷启动缓存抵抗）：
+1. 访问 [Vercel Dashboard](https://vercel.com/new)，点击 **Import** 导入 GitHub 仓库 `UniRound-Tec/pvz-tree-relay`；
+2. 构建选项保持默认（Framework Preset 选择 **Other**，Build Command 留空）；
+3. 点击 **Deploy**，约 10 秒后即可获得具备全球 CDN 加速的公网 HTTPS API 终端（例如 `https://pvz-tree-relay.vercel.app`）；
+4. 部署完成后，既可在浏览器直接访问前端控制台，也可将公网地址作为标准 LLM Base URL 填入 Dify、FastGPT、Coze、Cursor 等远程 Agent 环境中！
+
 ---
 
 ## 💻 客户端接入代码范式 (Production Integration)

@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "植物大战僵尸经典版 智慧树全台词与语录文案数据 (Tree of Wisdom Dialogue)",
+    "game": "Plants vs. Zombies (Classic / PvZ 1)",
+    "source_file": "properties/LawnStrings.txt (PopCap Games / SexyAppFramework)",
+    "language_pair": ["en-US", "zh-CN"],
+    "total_regular_tips": 39,
+    "total_milestone_quotes": 3,
+    "total_endgame_quotes": 4,
+    "total_system_quotes": 5,
+    "total_ui_strings": 5
+  },
+  "cheat_codes_summary": [
+    {
+      "code": "future",
+      "required_height_ft": 3,
+      "effect_zh": "给普通僵尸戴上未来感太阳镜/墨镜",
+      "effect_en": "Gives regular zombies futuristic sunglasses",
+      "introduced_at_key": "TREE_TALK_3"
+    },
+    {
+      "code": "mustache",
+      "required_height_ft": 18,
+      "effect_zh": "给大部分僵尸戴上浓密的小胡子",
+      "effect_en": "Gives most zombies stylish mustaches",
+      "introduced_at_key": "TREE_TALK_18"
+    },
+    {
+      "code": "trickedout",
+      "required_height_ft": 25,
+      "effect_zh": "将除草机升级为未来科技飞行战车外观",
+      "effect_en": "Upgrades standard lawnmowers to a pimped-out sci-fi look",
+      "introduced_at_key": "TREE_TALK_25"
+    },
+    {
+      "code": "sukhbir",
+      "required_height_ft": 35,
+      "effect_zh": "切换僵尸的求脑叫声/哼唱音效",
+      "effect_en": "Toggles the zombie call for brains sound",
+      "introduced_at_key": "TREE_TALK_35"
+    },
+    {
+      "code": "daisies",
+      "required_height_ft": 100,
+      "effect_zh": "僵尸被击杀时，会在草坪地面留下一朵小雏菊",
+      "effect_en": "Zombies leave behind a small daisy when defeated",
+      "introduced_at_key": "TREE_TALK_DAISIES"
+    },
+    {
+      "code": "dance",
+      "required_height_ft": 500,
+      "effect_zh": "让僵尸像舞王一样跳着迪斯科舞步前进",
+      "effect_en": "Makes zombies dance and groove as they advance",
+      "introduced_at_key": "TREE_TALK_DANCE"
+    },
+    {
+      "code": "pinata",
+      "required_height_ft": 1000,
+      "effect_zh": "终极彩蛋：僵尸被消灭时，会像彩罐一样爆出漫天彩色糖果",
+      "effect_en": "Zombies burst into a colorful cascade of candy upon defeat",
+      "introduced_at_key": "TREE_TALK_PINATA"
+    }
+  ],
+  "regular_tips": [
+    {
+      "id": 1,
+      "key": "TREE_TALK_1",
+      "height_ft": 1,
+      "category": "intro",
+      "target": "General",
+      "text_en": "Thank you for fertilizing me! Keep fertilizing, and I'll give you valuable information!",
+      "text_zh": "感谢你给我施肥！继续施肥，我会给你有价值的信息！",
+      "cheat_code": null
+    },
+    {
+      "id": 2,
+      "key": "TREE_TALK_2",
+      "height_ft": 2,
+      "category": "gameplay_tip",
+      "target": "Chomper & Wall-nut",
+      "text_en": "Chompers and Wall-nuts work well together. It makes sense: Chomper's got that big ol' appetite, and Wall-nut's... you know, he's Wall-nut.",
+      "text_zh": "大嘴花与坚果墙配合得很好。这很合理：大嘴花食欲旺盛，而坚果墙……你知道的，他就是坚果墙。",
+      "cheat_code": null
+    },
+    {
+      "id": 3,
+      "key": "TREE_TALK_3",
+      "height_ft": 3,
+      "category": "cheat_code",
+      "target": "Cheat Code",
+      "text_en": "If you really want to pay attention, you'll type 'future' while playing to summon zombies from the FAR FLUNG FUTURE!",
+      "text_zh": "如果你真的在认真听，那么在玩游戏时输入“future”，就会召唤来自遥远未来的僵尸！",
+      "cheat_code": "future"
+    },
+    {
+      "id": 4,
+      "key": "TREE_TALK_4",
+      "height_ft": 4,
+      "category": "gameplay_tip",
+      "target": "Gargantuar & Cherry Bomb",
+      "text_en": "How many Cherry Bombs does it take to kill a Gargantuar? Here's a hint: more than one, less than three.",
+      "text_zh": "杀死一个巨人僵尸需要多少个樱桃炸弹？这里有个提示：比一个多，比三个少。",
+      "cheat_code": null
+    },
+    {
+      "id": 5,
+      "key": "TREE_TALK_5",
+      "height_ft": 5,
+      "category": "zen_garden",
+      "target": "Mushroom Plants",
+      "text_en": "If you're looking for mushroom plants for your Zen Garden, you'll have better luck on levels where it's nighttime.",
+      "text_zh": "如果你在禅境花园中寻找蘑菇植物，在夜间关卡中会有更好的运气。",
+      "cheat_code": null
+    },
+    {
+      "id": 6,
+      "key": "TREE_TALK_6",
+      "height_ft": 6,
+      "category": "gameplay_tip",
+      "target": "Grave Buster",
+      "text_en": "I wouldn't worry about Grave Busters getting eaten. Grave Busters are like, totally inedible.",
+      "text_zh": "我不会担心墓碑苔藓被吃掉。墓碑苔藓几乎是完全不可食用的。",
+      "cheat_code": null
+    },
+    {
+      "id": 7,
+      "key": "TREE_TALK_7",
+      "height_ft": 7,
+      "category": "zen_garden",
+      "target": "Aquatic Plants",
+      "text_en": "Looking for pool plants for your Zen Garden? I bet you'll find more in pool levels than in roof levels!",
+      "text_zh": "在禅境花园中寻找水生植物？我敢打赌在泳池关卡中找到的肯定比在屋顶关卡中多得多！",
+      "cheat_code": null
+    },
+    {
+      "id": 8,
+      "key": "TREE_TALK_8",
+      "height_ft": 8,
+      "category": "lore_easter_egg",
+      "target": "Zombie Yeti",
+      "text_en": "Have you heard of the elusive Yeti zombie? Some say he likes to hide where it's pitch black.",
+      "text_zh": "听说过神出鬼没的雪人僵尸吗？有人说他喜欢躲在一片漆黑的地方。",
+      "cheat_code": null
+    },
+    {
+      "id": 9,
+      "key": "TREE_TALK_9",
+      "height_ft": 9,
+      "category": "gameplay_tip",
+      "target": "Puff-shroom",
+      "text_en": "What's cheaper than free? Nothing! That's why Puff-shrooms are essential on night levels!",
+      "text_zh": "什么比免费更便宜？没有！这就是为什么小喷菇在夜间关卡中至关重要的原因！",
+      "cheat_code": null
+    },
+    {
+      "id": 10,
+      "key": "TREE_TALK_10",
+      "height_ft": 10,
+      "category": "gameplay_tip",
+      "target": "Tangle Kelp",
+      "text_en": "Planning on an excursion to the pool? Then don't leave home without Tangle Kelp.",
+      "text_zh": "计划去泳池旅行？那就千万别不带缠绕水草出门。",
+      "cheat_code": null
+    },
+    {
+      "id": 11,
+      "key": "TREE_TALK_11",
+      "height_ft": 11,
+      "category": "lore",
+      "target": "Dr. Zomboss",
+      "text_en": "Zomboss said, \"If you want to defeat me, you'll need two things: plants, and a sense of style.\"",
+      "text_zh": "僵王博士说：“如果你想打败我，你需要两样东西：植物，以及一种时尚感。”",
+      "cheat_code": null
+    },
+    {
+      "id": 12,
+      "key": "TREE_TALK_12",
+      "height_ft": 12,
+      "category": "gameplay_tip",
+      "target": "Gold Magnet",
+      "text_en": "Tired of clicking on coins? Buy the Golden Magnet and watch the dough roll in!",
+      "text_zh": "厌倦了点击金币？购买吸金磁，看着财富滚滚而来吧！",
+      "cheat_code": null
+    },
+    {
+      "id": 13,
+      "key": "TREE_TALK_13",
+      "height_ft": 13,
+      "category": "gameplay_tip",
+      "target": "Dolphin Rider Zombie",
+      "text_en": "The screech of the Dolphin Rider zombie is the most terrifying sound you'll hear in the pool.",
+      "text_zh": "海豚骑士僵尸的尖叫声是你在泳池中能听到的最可怕的声音。",
+      "cheat_code": null
+    },
+    {
+      "id": 14,
+      "key": "TREE_TALK_14",
+      "height_ft": 14,
+      "category": "gameplay_tip",
+      "target": "Sunflower",
+      "text_en": "If you grow two rows of Sunflowers, you'll be swimming in sun!",
+      "text_zh": "如果你种植两排向日葵，你就会沐浴在充沛的阳光之中！",
+      "cheat_code": null
+    },
+    {
+      "id": 15,
+      "key": "TREE_TALK_15",
+      "height_ft": 15,
+      "category": "gameplay_tip",
+      "target": "Digger Zombie (Split Pea & Starfruit)",
+      "text_en": "Digger Zombies might bypass your defenses, but a backward-facing Repeater or a Starfruit can take care of 'em.",
+      "text_zh": "矿工僵尸可能会绕过你的防线，但向后攻击的双向射手或杨桃可以收拾他们。",
+      "cheat_code": null
+    },
+    {
+      "id": 16,
+      "key": "TREE_TALK_16",
+      "height_ft": 16,
+      "category": "lore",
+      "target": "Bungee Zombie",
+      "text_en": "Ever wonder why Bungee Zombies carry targets? Me too.",
+      "text_zh": "想过为什么蹦极僵尸随身携带靶子吗？我也想过。",
+      "cheat_code": null
+    },
+    {
+      "id": 17,
+      "key": "TREE_TALK_17",
+      "height_ft": 17,
+      "category": "gameplay_tip",
+      "target": "Pogo Zombie & Tall-nut",
+      "text_en": "Pogo Zombies are annoying, but a Tall-nut will put an end to their pogoing ways!",
+      "text_zh": "跳跳僵尸很烦人，但高坚果能终结他们的弹跳之路！",
+      "cheat_code": null
+    },
+    {
+      "id": 18,
+      "key": "TREE_TALK_18",
+      "height_ft": 18,
+      "category": "cheat_code",
+      "target": "Cheat Code",
+      "text_en": "Here's a handy phrase: 'mustache'. Type it into your keyboard while playing, and you'll transform the undead into gentlemen!",
+      "text_zh": "这里有个实用短语：“mustache”。在玩游戏时用键盘输入它，你就能把不死僵尸变成绅士！",
+      "cheat_code": "mustache"
+    },
+    {
+      "id": 19,
+      "key": "TREE_TALK_19",
+      "height_ft": 19,
+      "category": "gameplay_tip",
+      "target": "Gloom-shroom",
+      "text_en": "Gloom-shrooms are great for clearing out clustered groups of zombies.",
+      "text_zh": "忧郁菇非常适合清除扎堆聚集的成群僵尸。",
+      "cheat_code": null
+    },
+    {
+      "id": 20,
+      "key": "TREE_TALK_20",
+      "height_ft": 20,
+      "category": "gameplay_tip",
+      "target": "Snorkel Zombie & Wall-nut",
+      "text_en": "Those Snorkel Zombies seem pretty tricky, but a Wall-nut on a Lily Pad will stop them cold.",
+      "text_zh": "那些潜水僵尸看起来很狡猾，但睡莲上的坚果墙能彻底拦住他们。",
+      "cheat_code": null
+    },
+    {
+      "id": 21,
+      "key": "TREE_TALK_21",
+      "height_ft": 21,
+      "category": "gameplay_tip",
+      "target": "Cattail & Balloon Zombie",
+      "text_en": "Cat-tails can shoot spikes in any lane, and they pop Balloon Zombies too!",
+      "text_zh": "猫尾草可以在任意路线上发射尖刺，他们还能扎破气球僵尸！",
+      "cheat_code": null
+    },
+    {
+      "id": 22,
+      "key": "TREE_TALK_22",
+      "height_ft": 22,
+      "category": "gameplay_tip",
+      "target": "Spikerock",
+      "text_en": "Spikerocks can survive multiple hits from Gargantuars and Zombonis. Very durable!",
+      "text_zh": "地刺王可以在巨人僵尸和冰车僵尸的多次碾压下幸存下来。非常耐用！",
+      "cheat_code": null
+    },
+    {
+      "id": 23,
+      "key": "TREE_TALK_23",
+      "height_ft": 23,
+      "category": "gameplay_tip",
+      "target": "Magnet-shroom",
+      "text_en": "Magnet-shrooms are powerful, but they can be overwhelmed. A second Magnet-shroom will help keep things under control.",
+      "text_zh": "磁力菇很强大，但他们可能会应接不暇。再种一个磁力菇将有助于掌控局面。",
+      "cheat_code": null
+    },
+    {
+      "id": 24,
+      "key": "TREE_TALK_24",
+      "height_ft": 24,
+      "category": "gameplay_tip",
+      "target": "Garlic (Roof level mechanic)",
+      "text_en": "Have you ever tried using Garlic on the roof? It doesn't work so well, does it?",
+      "text_zh": "你试过在屋顶上使用大蒜吗？效果不是很好，对吧？",
+      "cheat_code": null
+    },
+    {
+      "id": 25,
+      "key": "TREE_TALK_25",
+      "height_ft": 25,
+      "category": "cheat_code",
+      "target": "Cheat Code",
+      "text_en": "Looking for an extra kick in the pants? Try typing 'trickedout'. It won't help you play any better, but it'll make your lawnmower look boss!",
+      "text_zh": "想寻找点额外的新鲜感吗？尝试输入“trickedout”。它不会帮你玩得更好，但能让你的除草机看起来帅呆了！",
+      "cheat_code": "trickedout"
+    },
+    {
+      "id": 26,
+      "key": "TREE_TALK_26",
+      "height_ft": 26,
+      "category": "gameplay_tip",
+      "target": "Blover & Balloon Zombie",
+      "text_en": "If you're having trouble with Balloon Zombies, Blover is an absolute lifesaver.",
+      "text_zh": "如果你在对付气球僵尸时遇到麻烦，三叶草绝对是救星。",
+      "cheat_code": null
+    },
+    {
+      "id": 27,
+      "key": "TREE_TALK_27",
+      "height_ft": 27,
+      "category": "gameplay_tip",
+      "target": "Cob Cannon",
+      "text_en": "Cob Cannons are expensive, but there's no better way to obliterate huge swarms of zombies!",
+      "text_zh": "玉米加农炮虽然昂贵，但绝对是消灭大批僵尸狂潮的最佳手段！",
+      "cheat_code": null
+    },
+    {
+      "id": 28,
+      "key": "TREE_TALK_28",
+      "height_ft": 28,
+      "category": "gameplay_tip",
+      "target": "Umbrella Leaf",
+      "text_en": "Umbrella Leaves will protect adjacent plants from Bungee Zombies and catapult basketballs.",
+      "text_zh": "叶子保护伞可以保护相邻的植物免受蹦极僵尸偷袭和投石车篮球的砸击。",
+      "cheat_code": null
+    },
+    {
+      "id": 29,
+      "key": "TREE_TALK_29",
+      "height_ft": 29,
+      "category": "gameplay_tip",
+      "target": "Winter Melon",
+      "text_en": "Winter Melons will slow down whole groups of zombies, giving your other plants time to take them down.",
+      "text_zh": "冰西瓜能减慢整群僵尸的移动速度，为你的其他植物争取歼灭他们的时间。",
+      "cheat_code": null
+    },
+    {
+      "id": 30,
+      "key": "TREE_TALK_30",
+      "height_ft": 30,
+      "category": "milestone_teaser",
+      "target": "Tree Milestones",
+      "text_en": "I'm growing bigger and wiser! When I reach 100 feet tall, I'll tell you something really special.",
+      "text_zh": "我长得越来越高、越来越聪明了！等我长到100英尺高时，我会告诉你一些非常特别的事情。",
+      "cheat_code": null
+    },
+    {
+      "id": 31,
+      "key": "TREE_TALK_31",
+      "height_ft": 31,
+      "category": "gameplay_tip",
+      "target": "Grave Buster",
+      "text_en": "Grave Busters are cheap, and clearing gravestones gives you more space for plants.",
+      "text_zh": "墓碑苔藓很便宜，清除墓碑不仅安全，还能为你腾出更多的种植空间。",
+      "cheat_code": null
+    },
+    {
+      "id": 32,
+      "key": "TREE_TALK_32",
+      "height_ft": 32,
+      "category": "gameplay_tip",
+      "target": "Jalapeno",
+      "text_en": "Zombies that walk through Jalapeno's flames will be incinerated instantly!",
+      "text_zh": "走过火爆辣椒火焰的僵尸都会被立刻烧成灰烬！",
+      "cheat_code": null
+    },
+    {
+      "id": 33,
+      "key": "TREE_TALK_33",
+      "height_ft": 33,
+      "category": "challenge",
+      "target": "Survival: Endless",
+      "text_en": "Looking for a real challenge? Try surviving on Endless Survival without using Cob Cannons!",
+      "text_zh": "想要真正的挑战吗？尝试在无尽生存模式中不使用玉米加农炮活下去！",
+      "cheat_code": null
+    },
+    {
+      "id": 34,
+      "key": "TREE_TALK_34",
+      "height_ft": 34,
+      "category": "gameplay_tip",
+      "target": "Imitater",
+      "text_en": "If you plant an Imitater as an upgrade plant, it won't work. You can only imitate regular seed packets!",
+      "text_zh": "如果你把模仿者当作升级紫卡植物来种是行不通的。你只能模仿常规的绿色基础卡包！",
+      "cheat_code": null
+    },
+    {
+      "id": 35,
+      "key": "TREE_TALK_35",
+      "height_ft": 35,
+      "category": "cheat_code",
+      "target": "Cheat Code",
+      "text_en": "Ever wonder what happens when you type 'sukhbir'? Try it!",
+      "text_zh": "想知道输入“sukhbir”会发生什么吗？试试看！",
+      "cheat_code": "sukhbir"
+    },
+    {
+      "id": 36,
+      "key": "TREE_TALK_36",
+      "height_ft": 36,
+      "category": "minigame_tip",
+      "target": "Vasebreaker",
+      "text_en": "Here's a tip: in Vasebreaker, break the vases on the right side of the screen first.",
+      "text_zh": "这里有个诀窍：在花瓶破坏者小游戏中，优先打破屏幕最右侧的花瓶。",
+      "cheat_code": null
+    },
+    {
+      "id": 37,
+      "key": "TREE_TALK_37",
+      "height_ft": 37,
+      "category": "minigame_tip",
+      "target": "I, Zombie (Football Zombie)",
+      "text_en": "In I, Zombie, Football Zombies are fast and tough, but a Chomper or Magnet-shroom will ruin their day!",
+      "text_zh": "在“我是僵尸”小游戏中，橄榄球僵尸又快又硬，但大嘴花或磁力菇会毁了他们的一整天！",
+      "cheat_code": null
+    },
+    {
+      "id": 38,
+      "key": "TREE_TALK_38",
+      "height_ft": 38,
+      "category": "gameplay_tip",
+      "target": "Jack-in-the-box Zombie",
+      "text_en": "When you're dealing with Jack-in-the-box Zombies, speed is essential! Take them down before they pop!",
+      "text_zh": "当你对付小丑僵尸（魔术盒僵尸）时，速度至关重要！务必在他们自爆前消灭他们！",
+      "cheat_code": null
+    },
+    {
+      "id": 39,
+      "key": "TREE_TALK_39",
+      "height_ft": 39,
+      "category": "gameplay_tip",
+      "target": "Magnet-shroom vs Metallic Zombies",
+      "text_en": "Pogo Zombies, Bungee Zombies, Ladder Zombies... they're all vulnerable to Magnet-shrooms!",
+      "text_zh": "跳跳僵尸、蹦极僵尸、扶梯僵尸……他们的金属道具都极其容易被磁力菇吸走！",
+      "cheat_code": null
+    }
+  ],
+  "milestones": [
+    {
+      "id": 100,
+      "key": "TREE_TALK_DAISIES",
+      "height_ft": 100,
+      "category": "milestone_cheat",
+      "target": "Milestone Reward (100 ft)",
+      "text_en": "Thank you! As promised, here's some wisdom: type 'daisies' when you play, and you'll summon daisies when you kill a zombie!",
+      "text_zh": "非常感谢！正如承诺的那样，这里有一些智慧：在玩游戏时输入“daisies”，当你消灭一个僵尸时，地上就会留下一朵雏菊！",
+      "cheat_code": "daisies"
+    },
+    {
+      "id": 500,
+      "key": "TREE_TALK_DANCE",
+      "height_ft": 500,
+      "category": "milestone_cheat",
+      "target": "Milestone Reward (500 ft)",
+      "text_en": "I feel like dancing! Type 'dance' to make the zombies boogie!",
+      "text_zh": "我想跳舞！输入“dance”让僵尸们摇摆起舞！",
+      "cheat_code": "dance"
+    },
+    {
+      "id": 1000,
+      "key": "TREE_TALK_PINATA",
+      "height_ft": 1000,
+      "category": "milestone_cheat",
+      "target": "Milestone Reward (1000 ft)",
+      "text_en": "A thousand feet! Now that's what I call a tree! Here's your reward: type 'pinata' to make candy burst from destroyed zombies!",
+      "text_zh": "一千英尺！这才叫真正的大树！这是你的终极奖励：输入“pinata”，消灭僵尸时会爆出满地的缤纷糖果！",
+      "cheat_code": "pinata"
+    }
+  ],
+  "endgame_loop": [
+    {
+      "key": "TREE_TALK_NOW_THAT_IS_A_TREE",
+      "trigger_condition": "Random dialogue when tree height > 1000 ft",
+      "text_en": "Now that is a tree!",
+      "text_zh": "现在这才叫一棵大树！"
+    },
+    {
+      "key": "TREE_TALK_LOOK_AT_ME_GROW",
+      "trigger_condition": "Random dialogue after milestones or tree height > 1000 ft",
+      "text_en": "Look at me grow!",
+      "text_zh": "看我长得多壮！"
+    },
+    {
+      "key": "TREE_TALK_CAN_YOU_HEAR_ME",
+      "trigger_condition": "Random dialogue when tree height > 1000 ft",
+      "text_en": "Can you hear me all the way down there?",
+      "text_zh": "你在最下面还能听得清我说话吗？"
+    },
+    {
+      "key": "TREE_TALK_WISE_ENOUGH",
+      "trigger_condition": "Repeated phrase when all wisdom is exhausted (40-99 ft or > 1000 ft)",
+      "text_en": "I think I'm wise enough for now. But keep feeding me and I'll keep growing!",
+      "text_zh": "我想我现在已经足够博学了。但只要你继续喂我，我就会一直长下去！"
+    }
+  ],
+  "system_and_contextual": [
+    {
+      "key": "TREE_TALK_DAY_TREES_ARE_TALKING",
+      "trigger_condition": "First visit to Tree of Wisdom screen during Daytime",
+      "text_en": "Greetings, friend! I am the Tree of Wisdom. Feed me tree food, and I will grow, giving you sage advice!",
+      "text_zh": "你好，朋友！我是智慧树。给我喂树肥，我就会成长，并给你明智的建议！"
+    },
+    {
+      "key": "TREE_TALK_NIGHT_TREES_ARE_TALKING",
+      "trigger_condition": "First visit to Tree of Wisdom screen during Nighttime",
+      "text_en": "Good evening, friend! I am the Tree of Wisdom. Feed me tree food, and I will grow, giving you sage advice!",
+      "text_zh": "晚上好，朋友！我是智慧树。给我喂树肥，我就会成长，并给你明智的建议！"
+    },
+    {
+      "key": "TREE_TALK_DUPLICATE_SEED_WARNING",
+      "trigger_condition": "Crazy Dave's store warning if player already owns the seed packet",
+      "text_en": "Wait! You've already got that seed packet in your inventory! Are you sure you want to buy it again?",
+      "text_zh": "等等！你的背包里已经有那张植物卡片了！你确定还要再买一次吗？"
+    },
+    {
+      "key": "TREE_TALK_FERTILIZER_ON_TREE",
+      "trigger_condition": "Player tries to apply standard Zen Garden fertilizer on the Tree",
+      "text_en": "Use Tree Food on the Tree of Wisdom, not regular Fertilizer!",
+      "text_zh": "给智慧树施肥请使用专门的“树肥”，而不是普通的花园肥料！"
+    },
+    {
+      "key": "TREE_TALK_TREE_FOOD",
+      "trigger_condition": "Tree Food item description / purchase popup",
+      "text_en": "Tree Food will make the Tree of Wisdom grow!",
+      "text_zh": "树肥能让智慧树茁壮成长！"
+    }
+  ],
+  "tree_ui_strings": {
+    "TREE_OF_WISDOM": {
+      "key": "TREE_OF_WISDOM",
+      "text_en": "Tree of Wisdom",
+      "text_zh": "智慧树"
+    },
+    "TREE_OF_WISDOM_HEADER": {
+      "key": "TREE_OF_WISDOM_HEADER",
+      "text_en": "TREE OF WISDOM",
+      "text_zh": "智慧树"
+    },
+    "TREE_FOOD": {
+      "key": "TREE_FOOD",
+      "text_en": "Tree Food",
+      "text_zh": "树肥"
+    },
+    "TREE_FOOD_TOOLTIP": {
+      "key": "TREE_FOOD_TOOLTIP",
+      "text_en": "Food for your Tree of Wisdom. Makes it grow and give advice!",
+      "text_zh": "智慧树的专属养料。能使它生长并提供宝贵建议！"
+    },
+    "TREE_FEED_PLANT": {
+      "key": "TREE_FEED_PLANT",
+      "text_en": "Feed Tree",
+      "text_zh": "喂养智慧树"
+    }
+  }
+}

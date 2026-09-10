@@ -623,13 +623,17 @@ app.get('/tree_of_wisdom_quotes.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'tree_of_wisdom_quotes.json'));
 });
 
-// 启动服务
-app.listen(PORT, () => {
-  console.log('====================================================');
-  console.log(`🌲 植物大战僵尸 智慧树 API 中继 (PvZ Tree Relay) 运行就绪!`);
-  console.log(`📍 本地监控控制台: http://localhost:${PORT}`);
-  console.log(`🔌 OpenAI API 接口:  POST http://localhost:${PORT}/v1/chat/completions`);
-  console.log(`🔌 Anthropic 接口:    POST http://localhost:${PORT}/v1/messages`);
-  console.log(`🤖 Agent 支持:       多轮对话会话隔离 + 完整 Tool Call ReAct 闭环`);
-  console.log('====================================================');
-});
+// 启动服务 (仅在作为主程序直接运行时监听，适配 Vercel Serverless Function 导出)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log('====================================================');
+    console.log(`🌲 植物大战僵尸 智慧树 API 中继 (PvZ Tree Relay) 运行就绪!`);
+    console.log(`📍 本地监控控制台: http://localhost:${PORT}`);
+    console.log(`🔌 OpenAI API 接口:  POST http://localhost:${PORT}/v1/chat/completions`);
+    console.log(`🔌 Anthropic 接口:    POST http://localhost:${PORT}/v1/messages`);
+    console.log(`🤖 Agent 支持:       多轮对话会话隔离 + 完整 Tool Call ReAct 闭环`);
+    console.log('====================================================');
+  });
+}
+
+module.exports = app;
