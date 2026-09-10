@@ -1,9 +1,38 @@
 {
   "version": 2,
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "public/**,tree_of_wisdom_quotes.json"
+    }
+  },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/v1/(.*)",
       "destination": "/api/index.js"
+    },
+    {
+      "source": "/chat/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/messages",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/models",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/tree/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/tree_of_wisdom_quotes.json",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
     }
   ]
 }
